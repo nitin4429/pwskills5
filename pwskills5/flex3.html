@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex3</title>
+    <style>
+        footer {
+            display: flex;
+            flex-direction: row;
+            background-color: #1b2124;
+            color: aliceblue;
+            width: 100vw;
+            position: fixed;
+            bottom: 0;
+            height:350px;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 1200px;
+            padding-left: 100px;
+        }
+
+        .section-1 {
+            width: 30%;
+            margin-left: 100px;
+            margin-top: 25px;
+        }
+
+        .section-1 img {
+            width: 100px;
+        }
+
+        .head {
+            margin-top: 2px;
+            margin-bottom: 0px;
+        }
+
+        .mail {
+            margin-top: 2px;
+            margin-bottom: 70px;
+        }
+
+        .num {
+            font-size: 10px;
+        }
+
+        .section-2 {
+            width: 30%;
+            margin-left: px;
+            margin-top: 25px;
+            padding:2px;
+        }
+        table{
+            align-items: center;
+        }
+
+        td {
+            width: 130px;
+            height: 50px;
+        }
+        .section-3 {
+            width: 20%;
+            margin-top: 25px;
+            margin-left:70px;
+        }
+        .line{
+           border:1px solid #f6980b;
+           margin-right:30%;
+        }
+        .title{
+            font-size:26px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <footer>
+        <div class="container">
+            <div class="section-1">
+                <img src="https://pwskills.com/images/PWSkills-white.png" alt="">
+                <p class="head">Email us:</p>
+                <p class="mail">support@pwskills.com</p>
+                <img src="https://pwskills.com/images/iso-9001-2015.svg" alt="Logo" alt="">
+                <p class="num">ISO 9001 </p>
+            </div>
+            <div class="section-2">
+                <h1 class="title">PW Skills</h1>
+                <hr class="line" />
+                <table>
+                    <tr>
+                        <td>About us</td>
+                        <td>Contact us</td>
+                    </tr>
+                    <tr>
+                        <td>FAQs</td>
+                        <td>Job assistance</td>
+                    </tr>
+                    <tr>
+                        <td>Privacy policy</td>
+                        <td>Terms and conditions</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="section-3">
+                <h1 class="title">Product</h1>
+                <hr class="line" />
+                <p>Pw Skills Lab</p>
+                <p>Job Portal</p>
+                <p>Experience Portal</p>
+                <p>Become an affiliate</p>
+                <p>Hall of Frame</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
